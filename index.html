@@ -6,94 +6,69 @@
     <title>Document</title>
 </head>
 <body>
-    <h6>Description</h6>
-    <p>Add an image with heading to the page as shown below</p>
-    <h1></h1>
-    <img src=".//qiz_qalasi.png"  width="700" height="550">
-    <h6>Description</h6>
-    <p>Specify the width and height of an image with the width and height attributes</p>
-    <img src=".//alov_gulleleri.jpg" width="1000" height="650">
-    <h6>Description</h6>
-    <p>Create an image with the tech academy logo that links to the tech academy site when you click on it</p>
-    <h6>Description</h6>
-    <p>Use the border attribute to add a border to the table</p>
-    <table border="2" >
-    <thead>
-        <tr>
-            <th><h2>Book Name</h2></th>
-            <th><h2>Author</h2></th>
-            <th><h2>Weeks on list</h2></th>
-            
-        </tr>
-    </thead>
-    <tbody>
-      <tr>
-          <td>The Mirror & the Light</td>
-          <td>Hilary Mantel</td>
-          <td>New this Week</td>
-      </tr>
-      <tr>
-        <td>Journey of the Pharaohs</td>
-        <td>Clive Cussler and Graham Brown</td>
-        <td>New this Week</td>
-    </tr>
-    <tr>
-        <td>Where thw Crawdals Sing</td>
-        <td>Delia Owens</td>
-        <td>79</td>
-    </tr>
-    <tr>
-        <td>American Dirt</td>
-        <td>Jeanine Cummings</td>
-        <td>8</td>
-    </tr>
-    <tr>
-        <td>Little Fires Everywhere</td>
-        <td>Celeste Ng</td>
-        <td>57</td>
-    </tr>
-    </tbody>
-        
+    <h1>Description</h1>
+    <p>Get the following result using different types of html inputs</p>
+    <h2>Number Field</h2>
 
-    </table>
-    <h6>Description</h6>
-    <p>Create html list types according to the image below</p>
-    <h1>Lists</h1>
-<h1>Movies I like</h1>
-    <ul>
-        <li>Star wars</li>
-        <li>The Shawshank Redemption</li>
-        <li>The Matrix</li>
-        <li>The goonies</li>
-        <li>Deadpool</li>
-    </ol>
-    <h1>Top 5 TV Show</h1>
-    <ol>
-        <li>Bette Call Saul</li>
-        <li>Rick and morti</li>
-        <li>Black mirrior</li>
-        <li>The Handmaid's Tale</li>
-        <li>True Detective</li>
-    </ol>
-<h1>Definitions</h1>
-<pre>daft
-        senseless,stupid,or foolish.
-prerequisite
-        requird beferehand.
-myriada 
-        a countless orextremely great number</pre>
-<h1>A Nested List of Animals</h1>
-<ul>
-    <li>Birds
-        <ul>
-            <li>Flamingo</li>
-            <li>Pelicans</li>
-            <li>Road Runners</li>
-        </ul>
-    </li>
-    <li>Insects
+<p>The <strong>input type="number"</strong> defines a numeric input field.</p>
 
-    </li>
-</ul>
+<p>You can use the min and max attributes to add numeric restrictions in the input field:</p>
+
+<form >
+  <label for="quantity">Quantity (between 1 and 5):</label>
+  <input type="number" id="quantity" name="quantity" min="1" max="5">
+  <input type="submit" value="Submit">
+</form>
+<h2>Numeric Steps</h2>
+<p>depending on browser support.Fixed steps will apply in the input field</p>
+<form >
+    <label for="quantity">Quantity :</label>
+    <input type="number" >
+    <input type="submit" value="Submit">
+  </form>
+  <h2>Date Field</h2>
+<p>The <strong>input type="Date"</strong> is used for input fields that should contain a date.</p>
+  <form >
+    <label for="date">Birthday:</label>
+    <input type="date" >
+    <input type="submit" value="Submit">
+  </form>
+  <h2>Email Field</h2>
+  <p>The <strong>input type="email"</strong> is used for input fields that should contain an e-mail address:</p>
+
+  <form >
+    <label for="email">Enter your email:</label>
+    <input type="email" >
+    <input type="submit" value="submit">
+  </form>
+  <p>Note that the form itself is not visible.</p>
+  <p>Also note that the default width of a text field is 20 characters</p>
+
+  <h2>Text field</h2>
+  <p>The <strong>input type="text"</strong> defines a one-line text input field:</p>
+  <form>
+    <label for="fname">First name:</label><br>
+    <input type="text" ><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" >
+  </form>
+  <h2>Password field</h2>
+<p>The <strong>input type="Password"</strong> defines a password field:</p>  
+<form>
+    <label for="username">Username:</label><br>
+    <input type="text" ><br>
+    <label for="pwd">Password:</label><br>
+    <input type="password" >
+  </form>
+<h2>Radio Buttons</h2>  
+<p>The <strong>input type="Radio"</strong> delines a radio button:</p>
+<form>
+    <input type="radio"  >
+    <label for="male">Male</label><br>
+    <input type="radio"  >
+    <label for="female">Female</label><br>
+    <input type="radio"  >
+    <label for="other">Other</label>
+  </form>
 </body>
 </html>
