@@ -1,0 +1,21 @@
+p{
+    margin: 0%;
+}
+.first{
+    background-color:lightblue ;
+    background-image: url('./image-1.jpg');
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.second{
+    background-color: darksalmon;
+    background-image: url(./image-2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.third{
+    background-color: darkseagreen;
+    background-image: url(./image-3.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;   
+}
