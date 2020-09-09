@@ -1,0 +1,145 @@
+h1{
+    text-align:center;
+    color:rgb(35, 160, 154);font-family: Lobster;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 49px;
+    line-height: 61px;
+    text-align: center;
+}
+strong{
+    color: #008000;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+}
+del{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+
+color: #FF0000;
+}
+.shekil{
+    width: 200px;
+    height: 302px;
+}
+
+.first{
+    background-color: black;
+    height: 256px;
+    padding-left: 43px;
+}
+.sozder{
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: right;
+    letter-spacing: 2px;
+
+}
+.first > h1{  
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+h4{
+    text-align: left;
+    font-size: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+
+
+text-transform: uppercase;
+
+color: #000000;
+}
+.table{
+    font-weight:900;
+    height:200px;
+    border: 1px solid black; 
+    height: 50px;
+    width: 100%;
+
+}
+.serh{
+    text-align: center;
+    font-size: 45px;
+    color: rgb(0, 0, 0);
+}
+.ad{
+    text-align: center;
+}
+.kitab{
+    text-align: center;
+}
+.vaxt{
+    text-align: center;
+}
+.dil{
+    text-align: center;
+}
+.qiymet{
+    text-align: center;
+    color: black;
+}
+.gonder{
+    text-align: center;
+    
+}
+.serhiniz{
+    width: 261px;
+    height: 156px;
+}
+.photo1{
+    background-image: url(./day1.png);
+    background-position-x: right;
+    width: 300px;
+    height: 478px;
+    background-size: cover;
+    float: left;;
+}
+.photo2{
+    background-image: url(./day1.png);
+    background-position-y:left;
+    width: 300px;
+    height: 478px;
+    background-size: cover;
+    float:right;
+}
+a{
+    color: blue;
+}
+.clearfix{
+    clear: both;
+}
+.footer{
+    width: 100%;
+    height: 80px;
+    background: #109E97;
+    padding-top: 20px;
+}    
+.qorunur{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
