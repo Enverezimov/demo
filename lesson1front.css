@@ -1,0 +1,86 @@
+body{
+    background-image: url(https://demo.themely.com/serenity-lite/wp-content/uploads/2019/04/bg-counters.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+
+}
+.body{
+    text-align: center;
+    margin-top: 280px;
+    color: aliceblue;
+    font-family: sans-serif;
+    
+}
+.text{
+    margin-top: 49px;
+    font-size: 22px;
+    
+
+}
+h2{
+    font-size: 32px;
+    margin-top: -10px;
+}
+h1{
+    font-size: 41px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.button{
+    width: 10%;
+    height: 40px;
+    border-radius: 25px;
+}
+button{
+    width: 192px;
+    height: 66px;
+    border-radius: 25px;
+    background: #f8f9fa;
+    border-color: #f8f9fa;
+    font-size: 17px;
+    font-weight: 500;
+    margin-right: 30px;
+    border-radius: 99px;
+    margin-top: 24px;
+    margin-right: 2px;
+    margin-left: 41px;
+}
+.Download{
+    background-color: #2f5be7;
+    border-color: #2f5be7;
+    width: 222px;
+    color: #f8f9fa;
+}
+.Download:hover{
+    background-color: #3a65f3;
+    border-color: #3a65f3;
+}
+button:hover{
+    background-color: #ededed;
+    border-color:#ededed;
+}
+.perfect{
+    margin-top: -15px;
+}
+/* font-size: 1rem;
+
+/* .nav{
+    text-align: right;
+    margin-top: -18px;
+}
+.class{
+    color: aliceblue;
+} */
+/* .navbar{
+    color: aliceblue;
+    margin-top: 25px
+}
+.Serenity{
+    margin-left: 20px;
+    margin-top: 20px;
+    
+}
+.Serenity:first-child{
+    font-size: 35px;
+    margin-left: 40px;
+} */
